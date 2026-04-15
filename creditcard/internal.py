@@ -15,7 +15,7 @@ class CreditCard(object):
     @staticmethod
     def _load_registry(filename):
 
-        et = ElementTree(element='registry', file=filename)
+        et = ElementTree(file=filename)
 
         registry = []
 
