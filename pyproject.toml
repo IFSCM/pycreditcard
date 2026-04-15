@@ -31,8 +31,8 @@ classifiers = [
 Homepage = "https://github.com/IFSCM/pycreditcard"
 "Original Project" = "https://github.com/alexforster/creditcard"
 
-[tool.setuptools.packages.find]
-where = ["."]
+[tool.setuptools]
+packages = ["creditcard"]
 
 [tool.setuptools.package-data]
 creditcard = ["data/registry.xml"]
